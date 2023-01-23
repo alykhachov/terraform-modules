@@ -41,5 +41,10 @@ variable "s3_endpoint" {
 
 variable "service_domain" {
   type    = string
-  default = null
+  default = ""
+}
+
+variable "sameregion_peer_vpc_id" {
+  type    = string
+  default = ""
 }
